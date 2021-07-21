@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  overflow-y: hidden !important;
+} */
+
+body {
+  overflow-x: hidden;
+}
+svg {
+  outline: 1px solid black;
+  width: 500px;
+  cursor: grab;
+  touch-action: none;
+}
+
+svg:active {
+  cursor: grabbing;
+}
+
+.a {
+  fill: #b4343c;
+}
+.b {
+  fill: #ce3b45;
+}
+.c {
+  fill: #6d3600;
+}
+.d {
+  fill: #315e98;
+}
+.e {
+  fill: #fff;
+}
+.f {
+  fill: #283d54;
+}
+.g {
+  fill: #ffa738;
+}
+.h {
+  fill: #ff8e38;
+}
+.i {
+  fill: #dc7a30;
+}
+.j {
+  fill: #2072ac;
+}
+.k {
+  fill: #ffc26d;
+}
+.l {
+  fill: #2086cc;
+}
+.m {
+  fill: #20b1cc;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

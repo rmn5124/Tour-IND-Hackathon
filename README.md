@@ -1,1 +1,1 @@
-# Tour-IND-Hackathon
+# DJP-Tourism-Hackathon
